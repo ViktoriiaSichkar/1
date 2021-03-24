@@ -1,0 +1,10 @@
+.statistic{
+    padding-bottom: 50px;
+    &__navigation{
+        padding-bottom: 10px;
+        @include flex(row, space-between, center);
+    }
+    .list-item--statistic{
+        @include list-item;
+    }
+}

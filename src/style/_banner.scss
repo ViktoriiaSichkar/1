@@ -1,0 +1,18 @@
+.banner{
+    padding: 25px;
+    position: relative;
+    @include flex(row, space-between, center);
+    &__price{
+        font-size: 16px;
+    }
+    &__button{
+        margin-top: 25px;
+        width: 120px;
+        height: 40px;
+    }
+    &__image{
+        position: absolute;
+        right: 100px;
+    }
+
+}
